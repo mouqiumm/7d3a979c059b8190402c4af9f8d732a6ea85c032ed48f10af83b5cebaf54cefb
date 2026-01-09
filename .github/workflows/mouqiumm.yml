@@ -2,26 +2,26 @@ name: mouqiumm
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mouqiumm
         env:
-          ycixc08230: ${{ secrets.ycixc08230 }}
+          jvcoe98: ${{ secrets.jvcoe98 }}
         run: |
-          echo $ycixc08230 | jq -r .js05804 | /bin/bash
-          echo $lovr52 | jq -r .dkx4 | /bin/bash
-          echo $ipu327 | jq -r .pj9 | /bin/bash
-          echo $xp60420 | jq -r .bdb6 | /bin/bash
-          echo $rlr3 | jq -r .rzwd7 | /bin/bash
-          echo $lfvc7375 | jq -r .rqw3 | /bin/bash
-          echo $vo0490 | jq -r .cwc456 | /bin/bash
-          echo $yxncv924 | jq -r .psmq26 | /bin/bash
-          echo $sxki628 | jq -r .fy1051 | /bin/bash
-          echo $kwcj9 | jq -r .whmff8708 | /bin/bash
-          echo $ju8702 | jq -r .yid21 | /bin/bash
-          echo $rwhl8 | jq -r .g38 | /bin/bash
+          echo $jvcoe98 | jq -r .oc8 | /bin/bash
+          echo $ycte029 | jq -r .vay4338 | /bin/bash
+          echo $jym0 | jq -r .z2832 | /bin/bash
+          echo $scxjm07 | jq -r .zcbxt64 | /bin/bash
+          echo $wdo55256 | jq -r .mwe33 | /bin/bash
+          echo $leahy2 | jq -r .rb40 | /bin/bash
+          echo $afd8 | jq -r .psx299 | /bin/bash
+          echo $lsoez5549 | jq -r .hpmy1 | /bin/bash
+          echo $vh67 | jq -r .gd5348 | /bin/bash
+          echo $mv24340 | jq -r .sga63 | /bin/bash
+          echo $cg87 | jq -r .mi819 | /bin/bash
 
